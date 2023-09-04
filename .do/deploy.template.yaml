@@ -4,5 +4,5 @@ spec:
   - environment_slug: node-js
     git:
       branch: main
-      repo_clone_url: https://github.com/fumblehool/sample-typescript.git
+      repo_clone_url: https://github.com/digitalocean/sample-typescript.git
     name: sample-typescript

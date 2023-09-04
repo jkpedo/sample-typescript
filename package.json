@@ -1,9 +1,10 @@
 {
   "name": "app",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "scripts": {
-    "start": "npm run build && node ./dist/www.js",
+    "start": "node ./dist/www.js",
+    "prestart": "npm run build",
     "prebuild": "mkdir -p dist/views && cp -R views/* dist/views/",
     "build": "tsc"
   },
