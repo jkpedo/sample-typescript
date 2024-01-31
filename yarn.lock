@@ -61,13 +61,6 @@
   resolved "https://registry.npmjs.org/@types/http-errors/-/http-errors-2.0.1.tgz"
   integrity sha512-/K3ds8TRAfBvi5vfjuz8y6+GiAYBZ0x4tXv1Av6CWBWn0IlADc+ZX9pMq7oU0fNQPnBwIZl3rmeLp6SBApbxSQ==
 
-"@types/lorem-ipsum@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@types/lorem-ipsum/-/lorem-ipsum-2.0.0.tgz#8877e571d44b36db287b7254d0f4a0b805cd4996"
-  integrity sha512-CCOaS3QbRyc3DD6/YK/HXtIR4Nymae1GkYA+JJsHmXgTRD6eJc94x0ndiGzQHCMYnZZhrIrNFJIeVnR2fXVzmA==
-  dependencies:
-    lorem-ipsum "*"
-
 "@types/mersenne-twister@^1.1.3":
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/@types/mersenne-twister/-/mersenne-twister-1.1.3.tgz#de903ccabe1773baef4de70333461eda43dd56f5"
@@ -249,6 +242,13 @@ clean-css@^4.1.11:
   version "4.2.4"
   resolved "https://registry.npmjs.org/clean-css/-/clean-css-4.2.4.tgz"
   integrity sha512-EJUDT7nDVFDvaQgAo2G/PJvxmp1o/c6iXLbswsBbUFXi1Nr+AjA2cKmfbKDMjMvzEe75g3P6JkaDDAKk96A85A==
+  dependencies:
+    source-map "~0.6.0"
+
+clean-css@^5.3.3:
+  version "5.3.3"
+  resolved "https://registry.yarnpkg.com/clean-css/-/clean-css-5.3.3.tgz#b330653cd3bd6b75009cc25c714cae7b93351ccd"
+  integrity sha512-D5J+kHaVb/wKSFcyyV75uCn8fiY4sV38XJoe4CUyGQ+mOU/fMVYUdH1hJC+CJQ5uY3EnW27SbJYS4X8BiLrAFg==
   dependencies:
     source-map "~0.6.0"
 
@@ -564,7 +564,7 @@ longest@^1.0.1:
   resolved "https://registry.npmjs.org/longest/-/longest-1.0.1.tgz"
   integrity sha512-k+yt5n3l48JU4k8ftnKG6V7u32wyH2NfKzeMto9F/QRE0amxy/LayxwlvjjkZEIzqR+19IrtFO8p5kB9QaYUFg==
 
-lorem-ipsum@*, lorem-ipsum@^2.0.3:
+lorem-ipsum@^2.0.3:
   version "2.0.8"
   resolved "https://registry.npmjs.org/lorem-ipsum/-/lorem-ipsum-2.0.8.tgz"
   integrity sha512-5RIwHuCb979RASgCJH0VKERn9cQo/+NcAi2BMe9ddj+gp7hujl6BI+qdOG4nVsLDpwWEJwTVYXNKP6BGgbcoGA==
